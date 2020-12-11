@@ -1,0 +1,40 @@
+/*Базовые цвета*/
+$basic-white: #FFFFFF;
+$basic-grey: #F2F2F2;
+$basic-green: #68B738;
+
+/*Фоновые цвета*/
+$primary-bg-color: $basic-white;
+$secondary-bg-color: #EAEAEA;
+$tertiary-bg-color: $basic-grey;
+
+/*Текстовые цвета*/
+$primary-text-color: #000000;
+$secondary-text-color: #444444;
+$tertiary-text-color: $basic-white;
+$quaternary-text-color: $basic-grey;
+
+/*Цвета кнопок*/
+$button-color: $basic-green;
+$button-hover-color: $5EAA2F;
+
+/*Шрифты*/
+$main-font-family: "Oswald", "Arial", sans-serif;
+$second-font-family: "Arial", sans-serif;
+
+/*Размеры шрифтов*/
+$main-font-size: 20px;
+$heading-font-size: 60px;
+$text-font-size: 16px;
+
+/*Visually-hidden-pattern*/
+.visually-hidden {
+	position: absolute;
+  	width: 1px;
+  	height: 1px;
+  	margin: -1px;
+  	padding: 0;
+  	overflow: hidden;
+  	border: 0;
+  	clip: rect(0 0 0 0);
+} 
