@@ -1,0 +1,30 @@
+.offer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.offer__item {
+  background-color: $tertiary-bg-color;
+}
+
+.offer__title {
+  font-family: $second-font-family;
+  color: $primary-text-color;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+}
+
+.offer__text {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.button--transparent {
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 16px;
+  color: $primary-text-color;
+  font-weight: normal;
+}
