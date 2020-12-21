@@ -1,0 +1,10 @@
+.intro__title {
+  @include font-set(36px, 36px);
+  color: $primary-text-color;
+}
+
+.intro__text {
+  @include font-set(14px, 18px);
+  text-transform: uppercase;
+  color: $primary-text-color;
+}
