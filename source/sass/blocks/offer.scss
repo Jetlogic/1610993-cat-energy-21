@@ -1,7 +1,5 @@
 .offer__list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  @include list-reset;
 }
 
 .offer__item {
@@ -11,20 +9,16 @@
 .offer__title {
   font-family: $second-font-family;
   color: $primary-text-color;
-  font-size: 24px;
-  line-height: 37px;
+  @include font-set(24px, 37px);
   text-transform: uppercase;
 }
 
 .offer__text {
-  font-size: 14px;
-  line-height: 18px;
+  @include font-set(14px, 18px);
 }
 
 .button--transparent {
   background-color: transparent;
-  font-size: 16px;
-  line-height: 16px;
+  @include font-set(16px, 16px);
   color: $primary-text-color;
-  font-weight: normal;
 }

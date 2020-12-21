@@ -1,6 +1,4 @@
 .about__list {
-	list-style: none;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: normal;
+  @include list-reset;
+  @include font-set(14px, 18px);
 }

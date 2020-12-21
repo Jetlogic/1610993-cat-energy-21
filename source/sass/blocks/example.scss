@@ -1,41 +1,24 @@
 .example {
-	background-color: $secondary-bg-color;
+  background-color: $secondary-bg-color;
 }
 
 .example__text {
-	list-style: none;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: normal;
+  @include font-set(14px, 18px);
 }
 
 .example__number {
-	font-family: $second-font-family;
-	font-size: 24px;
-	line-height: 24px;
-	font-weight: normal;
-	color: $primary-text-color;
+  font-family: $second-font-family;
+  @include font-set(24px, 24px);
+  color: $primary-text-color;
 }
 
 .example__description {
-	line-height: 12px;
-	font-weight: normal;
-}
-
-.spending {
-	font-family: $second-font-family;
-	color: $primary-text-color;
-	font-size: 14px;
-	line-height: 20px;
-	font-weight: normal;
-	text-transform: uppercase;
+  line-height: 12px;
 }
 
 .example-slider__toggle {
-	font-family: $second-font-family;
-	color: $primary-text-color;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 20px;
-	text-transform: uppercase;
+  font-family: $second-font-family;
+  color: $primary-text-color;
+  @include font-set(16px, 20px);
+  text-transform: uppercase;
 }
