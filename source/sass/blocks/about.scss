@@ -1,0 +1,4 @@
+.about__list {
+  @include list-reset;
+  @include font-set(14px, 18px);
+}

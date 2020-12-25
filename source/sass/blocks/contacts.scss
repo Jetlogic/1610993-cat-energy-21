@@ -1,0 +1,17 @@
+.address__title {
+  font-family: $second-font-family;
+  color: #111111;
+  @include font-set(16px, 18px);
+}
+
+.address__text {
+  @include font-set(14px, 20px);
+}
+
+.page-footer__info {
+  background-color: $tertiary-bg-color;
+}
+
+.page-footer__copyright {
+  @include font-set(16px, 18px);
+}

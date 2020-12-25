@@ -1,0 +1,18 @@
+.promo {
+  font-family: $second-font-family;
+  color: $tertiary-text-color;
+  background-image: url(../img/promo-cat.png);
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 27px;
+}
+
+.promo__title {
+  @include font-set(36px, 36px, 400);
+}
+
+.promo__text {
+  @include font-set(14px, 14px, 400);
+  text-transform: uppercase;
+}
