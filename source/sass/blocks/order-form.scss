@@ -9,12 +9,20 @@
   text-transform: none;
 }
 
-.order-form__item--transparent {
-  color: #222222;
+.order-form__item {
+
+  &--transparent {
+    color: $special-text-color;
+  }
+
 }
 
-.order-form__item--modified {
-  color: $primary-text-color;
+.order-form__item {
+
+  &--modified {
+    color: $primary-text-color;
+  }
+
 }
 
 .order-form__legend {

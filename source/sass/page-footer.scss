@@ -1,0 +1,7 @@
+.page-footer__info {
+  background-color: $tertiary-bg-color;
+}
+
+.page-footer__copyright {
+  @include font-set(16px, 18px);
+}

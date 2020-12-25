@@ -1,0 +1,9 @@
+.address__title {
+  font-family: $second-font-family;
+  color: $special2-text-color;
+  @include font-set(16px, 18px);
+}
+
+.address__text {
+  @include font-set(14px, 20px);
+}

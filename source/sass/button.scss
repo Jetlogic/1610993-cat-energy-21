@@ -3,7 +3,12 @@
   color: $tertiary-text-color;
   background-color: $basic-green;
   text-transform: uppercase;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: normal;
+  @include font-set(14px, 18px);
+
+  &--transparent {
+  background-color: transparent;
+  @include font-set(16px, 16px);
+  color: $primary-text-color;
+}
+
 }

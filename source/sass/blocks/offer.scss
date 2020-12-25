@@ -16,9 +16,3 @@
 .offer__text {
   @include font-set(14px, 18px);
 }
-
-.button--transparent {
-  background-color: transparent;
-  @include font-set(16px, 16px);
-  color: $primary-text-color;
-}
