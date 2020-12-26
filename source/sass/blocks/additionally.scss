@@ -1,0 +1,14 @@
+.additionally__title {
+  font-family: $second-font-family;
+  color: $primary-text-color;
+
+  @include font-set(24px, 24px);
+}
+
+.additionally__img {
+  color: $tertiary-text-color;
+
+  @include font-set(16px, 20px);
+  background-image: url("../../img/additionally-img.png");
+  background-repeat: no-repeat;
+}
