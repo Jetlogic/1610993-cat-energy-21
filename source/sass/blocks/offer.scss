@@ -9,6 +9,7 @@
 .offer__title {
   font-family: $second-font-family;
   color: $primary-text-color;
+
   @include font-set(24px, 37px);
   text-transform: uppercase;
 }

@@ -1,6 +1,7 @@
 .spending {
   font-family: $second-font-family;
   color: $primary-text-color;
+
   @include font-set(14px, 20px);
   text-transform: uppercase;
 }

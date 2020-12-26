@@ -8,6 +8,7 @@
 
 .example__number {
   font-family: $second-font-family;
+
   @include font-set(24px, 24px);
   color: $primary-text-color;
 }

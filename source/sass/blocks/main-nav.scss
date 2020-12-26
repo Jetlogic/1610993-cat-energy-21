@@ -1,6 +1,8 @@
 .main-nav__list {
   font-family: $second-font-family;
+
   @include list-reset;
-  @include font-set($main-font-size, 20px, 500)
+  @include font-set($main-font-size, 20px, 500);
+
   text-transform: uppercase;
 }

@@ -10,24 +10,19 @@
 }
 
 .order-form__item {
-
   &--transparent {
     color: $special-text-color;
   }
 
-}
-
-.order-form__item {
-
   &--modified {
     color: $primary-text-color;
   }
-
 }
 
 .order-form__legend {
   font-family: $main-font-family;
   color: $primary-text-color;
+
   @include font-set(14px, 16px);
   text-transform: none;
 }
