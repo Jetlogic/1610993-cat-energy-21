@@ -1,0 +1,28 @@
+.order-form {
+  font-family: $second-font-family;
+  text-transform: uppercase;
+}
+
+.order-form__title {
+  @include font-set(24px, 26px);
+  color: $primary-text-color;
+  text-transform: none;
+}
+
+.order-form__item {
+  &--transparent {
+    color: $special-text-color;
+  }
+
+  &--modified {
+    color: $primary-text-color;
+  }
+}
+
+.order-form__legend {
+  font-family: $main-font-family;
+  color: $primary-text-color;
+
+  @include font-set(14px, 16px);
+  text-transform: none;
+}

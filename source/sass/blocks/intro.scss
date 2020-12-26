@@ -1,0 +1,13 @@
+.intro {
+  font-family: $second-font-family;
+  color: $primary-text-color;
+}
+
+.intro__title {
+  @include font-set(36px, 36px);
+}
+
+.intro__text {
+  @include font-set(14px, 18px);
+  text-transform: uppercase;
+}

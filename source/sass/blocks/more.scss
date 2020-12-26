@@ -1,0 +1,17 @@
+.more__title {
+  font-family: $second-font-family;
+  color: $special2-text-color;
+
+  @include font-set(16px, 20px);
+  text-transform: uppercase;
+}
+
+.more__text {
+  @include font-set(12px, 16px);
+}
+
+.more__button {
+  @include font-set(16px, 20px);
+  color: $secondary-text-color;
+  background-color: $tertiary-bg-color;
+}

@@ -2,19 +2,19 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="source/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Cat energy</title>
   </head>
   <body class="page__body">
     <header class="page-header">
       <a class="page-header__logo">
-        <img src="#" alt="CAT ENERGY">
+        <img src="img/head-logo.svg" width="280" height="38" alt="CAT ENERGY">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
           <ul class="main-nav__list site-list">
-            <li class="site-list__item">
-              <a href="index.html">
+            <li class="site-list__item site-list__item--active">
+              <a>
                 Главная
               </a>
             </li>
@@ -23,8 +23,8 @@
                 Каталог продукции
               </a>
             </li>
-            <li class="site-list__item site-list__item--active">
-              <a>
+            <li class="site-list__item">
+              <a href="form.html">
                 Подбор программы
               </a>
             </li>
@@ -32,8 +32,10 @@
       </nav>
     </header>
     <main class="page-main">
-      <h1 class="intro__title">Подбор программы</h1>
-      <p class="intro__text">Заполните анкету и мы подберем программу питания для вашего кота</p>
+      <section class="intro">
+        <h1 class="intro__title">Подбор программы</h1>
+        <p class="intro__text">Заполните анкету и мы подберем программу питания для вашего кота</p>
+      </section>
       <form class="order-form">
         <fieldset class="order-form__item">
           <label class="order-form__label" for="cat-name">Имя:<sup>*</sup></label>
@@ -43,7 +45,7 @@
           <label class="order-form__label" for="age">Возраст (лет):</label>
           <input class="order-form__input" id="age" type="text" name="age" maxlength="2" placeholder="7">
         </fieldset>
-        <fieldset class="order-form__item">
+        <fieldset class="order-form__item order-form__item--transparent">
           <input class="visually-hidden" id="slimming" type="radio" name="radio-toggle" checked>
           <label class="order-form__label" for="slimming">Похудение</label>
           <input class="visually-hidden" id="weight-gain" type="radio" name="radio-toggle">
@@ -62,7 +64,7 @@
           <legend class="order-form__title">Комментарий</legend>
           <textarea class="order-form__textarea" placeholder="Расскажите обо всех повадках кота"></textarea>
         </fieldset>
-        <fieldset class="order-form__item">
+        <fieldset class="order-form__item order-form__item--modified">
           <legend class="order-form__title">Дополнительно</legend>
           <input class="visually-hidden" id="sweetener" type="checkbox" name="sweetener" checked>
           <label class="order-form__label" for="sweetener">Сахарозаменитель</label>
@@ -71,10 +73,10 @@
           <input class="visually-hidden" id="milk" type="checkbox" name="milk">
           <label class="order-form__label" for="milk">Молоко</label>
           <input class="visually-hidden" id="vitamins" type="checkbox" name="vitamins">
-          <label class="visually-hidden" class="order-form__label" for="vitamins">Витамины</label>
+          <label class="order-form__label" class="order-form__label" for="vitamins">Витамины</label>
         </fieldset>
-        <button class="botton order-form__button" type="submit">Отправить заявку</button>
-        <p><sup>*</sup>-обязательные поля</p>
+        <button class="button order-form__button" type="submit">Отправить заявку</button>
+        <p class="order-form__legend"><sup>*</sup>-обязательные поля</p>
       </form>
     </main>
     <footer class="page-footer">
@@ -82,23 +84,23 @@
         <div class="contacts__wrapper">
           <h2 class="visually-hidden">Наши контакты</h2>
           <div class="address">
-            <p class="address__slogan">Приглашаем к сотрудничеству дилеров!</p>
-            <p class="address__intro">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+            <p class="address__title">Приглашаем к сотрудничеству дилеров!</p>
+            <p class="address__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
           </div>
         </div>
         <div class="map">
-            <img class="map__img" src="#" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
+            <img class="map__img" src="img/map.png" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
         </div>
       </section>
       <section class="page-footer__info">
         <div class="wrapper">
           <a class="page-footer__logo">
-            <img src="#" alt="CAT ENERGY">
+            <img src="img/footer-logo.svg" alt="CAT ENERGY">
           </a>
           <ul class="socials-list">
-            <li class="socials-list__item"><a class="socials-list__link socials-list__link--vk" href="#"><img src="#" alt="vk.com"></a></li>
-            <li class="socials-list__item"><a class="socials-list__link socials-list__link--inst" href="#"><img src="#" alt="instagram.com"></a></li>
-            <li class="socials-list__item"><a class="socials-list__link socials-list__link--fb" href="#"><img src="#" alt="fb.com"></a></li>
+            <li class="socials-list__item"><a class="socials-list__link socials-list__link--vk" href="#"><img src="img/vk-icon.svg" alt="vk.com"></a></li>
+            <li class="socials-list__item"><a class="socials-list__link socials-list__link--inst" href="#"><img src="img/instagram-icon.svg" alt="instagram.com"></a></li>
+            <li class="socials-list__item"><a class="socials-list__link socials-list__link--fb" href="#"><img src="img/fb-icon.svg" alt="fb.com"></a></li>
           </ul>
           <a class="page-footer__logo" href="#">
             <p class="page-footer__copyright"><a>HTML Academy</a></p>

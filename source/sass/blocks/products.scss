@@ -1,0 +1,27 @@
+.products__title {
+  font-family: $second-font-family;
+  color: $primary-text-color;
+
+  @include font-set(36px, 36px);
+}
+
+.product__title a {
+  font-family: $second-font-family;
+  color: $special-text-color;
+
+  @include font-set(16px, 20px);
+  text-transform: uppercase;
+}
+
+.products__term,
+.products__value {
+  @include font-set(12px, 16px);
+}
+
+.products__button {
+  @include font-set(16px, 20px);
+}
+
+.products__more {
+  @include list-reset;
+}
