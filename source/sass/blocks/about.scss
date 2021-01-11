@@ -1,4 +1,13 @@
 .about__list {
   @include list-reset;
   @include font-set(14px, 18px);
+
+  @media (min-width: $tablet) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: $desktop) {
+    display: flex;
+  }
 }

@@ -1,3 +1,8 @@
+.address {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .address__title {
   font-family: $second-font-family;
   color: $special2-text-color;

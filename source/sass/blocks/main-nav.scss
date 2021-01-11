@@ -5,4 +5,15 @@
   @include font-set($main-font-size, 20px, 500);
 
   text-transform: uppercase;
+
+  @media (min-width: $tablet) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $tablet) {
+  .main-nav__toggle {
+    display: none;
+  }
 }
