@@ -1,0 +1,6 @@
+.block-title {
+  font-family: $second-font-family;
+  color: $primary-text-color;
+
+  @include font-set(36px, 40px, 400);
+}

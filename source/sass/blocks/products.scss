@@ -2,14 +2,14 @@
   font-family: $second-font-family;
   color: $primary-text-color;
 
-  @include font-set(36px, 36px);
+  @include font-set(36px, 36px, 400);
 }
 
 .product__title a {
   font-family: $second-font-family;
   color: $special-text-color;
 
-  @include font-set(16px, 20px);
+  @include font-set(16px, 20px, 400);
   text-transform: uppercase;
 }
 
@@ -23,5 +23,9 @@
 }
 
 .products__more {
+  @include list-reset;
+}
+
+.products__list {
   @include list-reset;
 }

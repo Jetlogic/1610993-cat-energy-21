@@ -1,0 +1,15 @@
+.additionally-item__title {
+  font-family: $second-font-family;
+  color: $special-text-color;
+
+  @include font-set(16px, 16px);
+}
+
+.additionally-item__term,
+.additionally-item__value {
+  @include font-set(14px, 14px);
+}
+
+.additionally__button {
+  @include font-set(16px, 20px);
+}
