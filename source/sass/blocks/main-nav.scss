@@ -12,8 +12,8 @@
   }
 }
 
-@media (min-width: $tablet) {
-  .main-nav__toggle {
+.main-nav__toggle
+  @media (min-width: $tablet) {
     display: none;
   }
 }

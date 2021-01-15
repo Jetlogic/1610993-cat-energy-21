@@ -4,4 +4,8 @@
 
   @include font-set(14px, 20px);
   text-transform: uppercase;
+
+  @media (min-width: $desktop) {
+    width: 100%;
+  }
 }
